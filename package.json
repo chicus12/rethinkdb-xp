@@ -1,5 +1,5 @@
 {
-  "name": "lunchhub",
+  "name": "lunchhub-db",
   "version": "1.0.0",
   "description": "Logica de BD de la aplicacion lunchhub",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/chicus12/rethinkdb-xp/issues"
   },
-  "homepage": "https://github.com/chicus12/rethinkdb-xp#readme"
+  "homepage": "https://github.com/chicus12/rethinkdb-xp#readme",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
 }
