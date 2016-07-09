@@ -1,0 +1,24 @@
+{
+  "name": "lunchhub",
+  "version": "1.0.0",
+  "description": "Logica de BD de la aplicacion lunchhub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicus12/rethinkdb-xp.git"
+  },
+  "keywords": [
+    "food",
+    "delivery",
+    "lunchhub"
+  ],
+  "author": "Francisco Cerdas <chicus12@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chicus12/rethinkdb-xp/issues"
+  },
+  "homepage": "https://github.com/chicus12/rethinkdb-xp#readme"
+}
