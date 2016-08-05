@@ -4,7 +4,8 @@
   "description": "Logica de BD de la aplicacion lunchhub",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint && ava"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   "homepage": "https://github.com/chicus12/rethinkdb-xp#readme",
   "devDependencies": {
     "ava": "^0.15.2",
+    "eslint": "^3.1.1",
+    "eslint-plugin-ava": "^2.5.0",
+    "eslint-plugin-react": "^5.2.2",
     "istanbul": "^0.4.4"
   }
 }
